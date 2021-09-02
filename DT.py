@@ -3,7 +3,7 @@ import tensorflow_decision_forests as tfdf
 import pandas
 from tensorflow import keras
 import tensorflow as tf
-from keras.models import load_model
+from tf.keras.models import load_model
 import numpy as np
 from flask import Flask, jsonify, request 
 import json
