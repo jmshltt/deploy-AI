@@ -2,7 +2,7 @@ Flask==2.0.1
 jsonpatch==1.22
 jsonpointer==2.0
 jsonschema==3.2.0
-Keras==2.4.3
+Keras==2.6
 keras-models==0.0.7
 keras-nightly==2.5.0.dev2021032900
 Keras-Preprocessing==1.1.2
@@ -13,3 +13,5 @@ pandas-io==0.0.1
 requests==2.22.0
 tensorflow-decision-forests==0.1.8
 tensorflow-cpu==2.6.0
+six==1.15.0
+h5py==3.1.0
