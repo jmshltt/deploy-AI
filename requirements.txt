@@ -1,8 +1,9 @@
+python==3.8.6
 Flask==2.0.1
 jsonpatch==1.22
 jsonpointer==2.0
 jsonschema==3.2.0
-Keras==2.4.0
+Keras==2.4.3
 keras-models==0.0.7
 keras-nightly==2.5.0.dev2021032900
 Keras-Preprocessing==1.1.2
