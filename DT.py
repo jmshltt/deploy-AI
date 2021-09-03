@@ -103,4 +103,4 @@ def userPrediction():
     
 if __name__ == '__main__':
     Port = os.getenv('PORT')
-    app.run(threaded = True, port = Port)
+    app.run(threaded = True,host='0.0.0.0' ,port = Port)
