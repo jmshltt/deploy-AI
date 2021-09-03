@@ -101,4 +101,4 @@ def userPrediction():
     return dt.prediction(psymptoms)
     
 if __name__ == '__main__':
-    app.run(threaded = True, port = 5006)
+    app.run(threaded = True, port = 5000)
