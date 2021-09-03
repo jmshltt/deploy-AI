@@ -1,1 +1,1 @@
-web: python3 DT.py
+worker: python3 DT.py
