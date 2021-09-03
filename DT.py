@@ -8,6 +8,7 @@ import numpy as np
 from flask import Flask, jsonify, request 
 import json
 from pandas.io.json import json_normalize
+import os
 
 app = Flask(__name__)
 
@@ -101,4 +102,5 @@ def userPrediction():
     return dt.prediction(psymptoms)
     
 if __name__ == '__main__':
-    app.run(threaded = True, port = 5000)
+    Port = os.getenv('PORT')
+    app.run(threaded = True, port = Port)
