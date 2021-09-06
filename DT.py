@@ -9,7 +9,6 @@ from flask import Flask, jsonify, request
 import json
 from pandas.io.json import json_normalize
 import os
-import matplotlib.pyplot as plt
 from flask_cors import CORS
 
 
@@ -31,9 +30,6 @@ class DecisionTree:
 
         #Evaluating dataset
         evaluate_data = pandas.read_csv("dataset3.csv")
-        plt.figure()
-        evaluate_data.plot()
-        plt.show()
         evaluate_dataset = tfdf.keras.pd_dataframe_to_tf_dataset(evaluate_data, label="corona_result")
 
         #Train Random Forest using train_ds
