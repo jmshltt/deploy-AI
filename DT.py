@@ -93,6 +93,7 @@ def train():
     dt = DecisionTree()
     #train model and save it in 'models'
     dt.train_and_save()
+    dt.predictionTest()
     return "trained model and saved to models"
 
 @app.route('/api/predict', methods=['POST'])
