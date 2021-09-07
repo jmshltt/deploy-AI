@@ -82,7 +82,7 @@ class DecisionTree:
         
         finalPrediction = prediction[0][0]
         print(finalPrediction)
-        return json.dumps(finalPrediction)
+        return json.dumps(str(finalPrediction))
         
 
 
