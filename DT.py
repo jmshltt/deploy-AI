@@ -82,10 +82,7 @@ class DecisionTree:
         
         finalPrediction = prediction[0][0]
         print(finalPrediction)
-        if finalPrediction > 0.65:
-            return "True"
-        else:
-            return "False"
+        return json.dumps(finalPrediction)
         
 
 
