@@ -12,6 +12,7 @@ import os
 from flask_cors import CORS
 import nltk, string
 from sklearn.feature_extraction.text import TfidfVectorizer
+nltk.download('punkt')
 
 
 app = Flask(__name__)
