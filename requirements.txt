@@ -16,4 +16,4 @@ tensorflow-cpu==2.5.0
 tensorflow==2.5.0
 flask_cors==3.0.10
 nltk==3.6.2
-scikit==2.2.0
+scikit-learn==2.2.0
